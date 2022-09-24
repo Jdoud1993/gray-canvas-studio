@@ -71,14 +71,14 @@ body {
         border-radius: 5px;
     }
 
-#slideShowContainer {
+.slideShowContainer {
     background-image: linear-gradient(white, gray, white);
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 100px;
 }
 
-#slideShowContainer h3 {
+#war40K {
     text-align: center;
 }
 
