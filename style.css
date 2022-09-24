@@ -45,3 +45,26 @@ body {
     -webkit-user-select: none;
     touch-action: manipulation;
     }
+
+#bio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    #bio #aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    }
+
+    #bio img {
+        width: 800px;
+        height: 400px;
+        border: 10px solid gray;
+        border-radius: 5px;
+    }
