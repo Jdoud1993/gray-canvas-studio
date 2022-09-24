@@ -51,6 +51,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
     #bio #aboutContainer {
@@ -69,11 +71,27 @@ body {
         border-radius: 5px;
     }
 
-#slideShowOne {
-    max-width: 1000px;
+#slideShowContainer {
+    background-image: linear-gradient(white, gray, white);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
+}
+
+#slideShowContainer h3 {
+    text-align: center;
+}
+
+.slideShow {
+    max-width: 500px;
+    max-height: 500px;
     position: relative;
     margin: auto;
 }
+
+    .slide.one {
+        display: block;
+    }
 
     .slide {
         display: none;
@@ -99,12 +117,12 @@ body {
         border-radius: 3px 0 0 3px;
     }
 
-    .prev:hover, next:hover {
+    .prev:hover, .next:hover {
         background-color: rgba(0,0,0,0.8)
     }
 
     .numbertext {
-        color: gray;
+        color: rgb(255, 255, 255);
         font-size: 12px;
         padding: 8px 12px;
         position: absolute;
@@ -135,3 +153,5 @@ body {
         from {opacity: .4}
         to {opacity: 1}
     }
+
+* {box-sizing: border-box;}

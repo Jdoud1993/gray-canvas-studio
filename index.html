@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Gray Canvas Studio</title>
 
 </head>
 
 <body>
-    
+    <link rel="stylesheet" href="style.css">
     <div id="header">
         
         <img src="./images/gray-canvas-studio.png" alt="Logo" height="200px" width="200px">
@@ -43,57 +43,60 @@
         <img src="./images/set-up.jpg" alt="Image of Working Station" height="500px" width="1000px">
 
     </div>
+        <div id="slideShowContainer">
+            <h3>Warhammer 40K</h3>
+            <div class="slideShow">
 
-    <div id="slideShowOne">
+                <div class="slide one fade">
+                    <div class="numbertext">1/8</div>
+                    <img src="./images/chronomancer.jpg" width="100%">
+                </div>
+                <div class="slide fade">
+                    <div class="numbertext">2/8</div>
+                    <img src="./images/chronomancer-2.jpg" width="100%">
+                </div>
+                <div class="slide fade">
+                    <div class="numbertext">3/8</div>
+                    <img src="./images/chronomancer-3.jpg" width="100%">
+                </div>
+                <div class="slide fade">
+                    <div class="numbertext">4/8</div>
+                    <img src="./images/chronomancer-4.jpg" width="100%">
+                </div>
+                <div class="slide fade">
+                    <div class="numbertext">5/8</div>
+                    <img src="./images/flayers.jpg" width="100%">
+                </div>
+                <div class="slide fade">
+                    <div class="numbertext">6/8</div>
+                    <img src="./images/flayers-2.jpg" width="100%">
+                </div>
+                <div class="slide fade">
+                    <div class="numbertext">7/8</div>
+                    <img src="./images/flayers-3.jpg" width="100%">
+                </div>
+                <div class="slide fade">
+                    <div class="numbertext">8/8</div>
+                    <img src="./images/flayers-4.jpg" width="100%">
+                </div>
 
-        <div class="slide fade">
-            <div class="numbertext">1/8</div>
-            <img src="./images/chronomancer.jpg">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+        
         </div>
-        <div class="slide fade">
-            <div class="numbertext">2/8</div>
-            <img src="./images/chronomancer-2.jpg">
-        </div>
-        <div class="slide fade">
-            <div class="numbertext">3/8</div>
-            <img src="./images/chronomancer-3.jpg">
-        </div>
-        <div class="slide fade">
-            <div class="numbertext">4/8</div>
-            <img src="./images/chronomancer-4.jpg">
-        </div>
-        <div class="slide fade">
-            <div class="numbertext">5/8</div>
-            <img src="./images/flayers.jpg">
-        </div>
-        <div class="slide fade">
-            <div class="numbertext">6/8</div>
-            <img src="./images/flayers-2.jpg">
-        </div>
-        <div class="slide fade">
-            <div class="numbertext">7/8</div>
-            <img src="./images/flayers-3.jpg">
-        </div>
-        <div class="slide fade">
-            <div class="numbertext">8/8</div>
-            <img src="./images/flayers-4.jpg">
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
-    </div>
-    <div id="dotContainer">
-        <span class="dot" onclick="currnetSlide(1)"></span>
-        <span class="dot" onclick="currnetSlide(2)"></span>
-        <span class="dot" onclick="currnetSlide(3)"></span>
-        <span class="dot" onclick="currnetSlide(4)"></span>
-        <span class="dot" onclick="currnetSlide(5)"></span>
-        <span class="dot" onclick="currnetSlide(6)"></span>
-        <span class="dot" onclick="currnetSlide(7)"></span>
-        <span class="dot" onclick="currnetSlide(8)"></span>
-    </div>
-
     
 </body>
 </html>
